@@ -8,8 +8,11 @@ import Stats from "./Stats";
 import Testimonials from "./Testimonials";
 import Button from "./Button";
 import CTA from "./CTA";
-import Business from "./Business";
+import Features from "./Features";
 import Clients from "./Clients";
+import AboutMe from "./AboutMe";
+import ButtonLink from "./ButtonLink";
+
 
 export {
     Navbar,
@@ -22,7 +25,9 @@ export {
     Testimonials,
     Button,
     CTA,
-    Business,
-    Clients
+    Features,
+    Clients,
+    AboutMe,
+    ButtonLink,
 
 };

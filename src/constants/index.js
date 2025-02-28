@@ -13,6 +13,8 @@ import {
   send,
   shield,
   star,
+  github,
+  Me,
 } from "../assets";
 
 export const navLinks = [
@@ -25,62 +27,63 @@ export const navLinks = [
     title: "Features",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "stats",
+    title: "Stats",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "feedback",
+    title: "Feedback",
   },
+  {
+    id: "footer",
+    title: "More",
+  }
 ];
 
 export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Rating",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Recommended and highly rated by former partners based on completed projects.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
+    content: "Take proactive steps make sure your information are secure.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Online shopping",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Shopping based on ecommerce brings much more profits for companies by up to 60%.",
   },
 ];
 
 export const feedback = [
   {
     id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+    content: "Time to get yourself a new motto. Just Make Money.",
+    name: "Lalo Salamanca",
+    title: "Distributor",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "I have people waiting for me. They don't know what I do. They never will. They're protected, but I do what I do so they can have a better life. You ask me how I keep going, that's how.",
+    name: "Mike Ehrmantraut",
+    title: "Head of Security",
     img: people02,
   },
   {
     id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    content: "I did it for me. I liked it.",
+    name: "Walter White",
+    title: "Co-Founder, Co-Owner, Chemist",
     img: people03,
   },
 ];
@@ -108,24 +111,20 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Vite",
+        link: "https://vitejs.dev/guide/",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "React Dev",
+        link: "https://react.dev/",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "React",
+        link: "https://pl.legacy.reactjs.org/",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Npm JS",
+        link: "https://www.npmjs.com/",
       },
     ],
   },
@@ -133,24 +132,12 @@ export const footerLinks = [
     title: "Community",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "Discord",
+        link: "https://discord.com/",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "Reddit",
+        link: "https://www.reddit.com/",
       },
     ],
   },
@@ -158,12 +145,12 @@ export const footerLinks = [
     title: "Partner",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Strefa",
+        link: "https://strefa.ii.uph.edu.pl/",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "UPH",
+        link: "https://www.uph.edu.pl/",
       },
     ],
   },
@@ -189,6 +176,11 @@ export const socialMedia = [
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
+  },
+  {
+    id: "social-media-5",
+    icon: github,
+    link: "https://github.com/Giinsho?tab=repositories",
   },
 ];
 

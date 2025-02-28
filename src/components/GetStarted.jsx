@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../style';
 import { arrowUp } from '../assets';
 
-
+const nameArrow = "arrow-up";
 const GetStarted = () => (
     <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full
      bg-blue-gradient p-[2px] cursor-pointer hover:p-[6px] hover:animate-pulse `}>
@@ -13,7 +13,7 @@ const GetStarted = () => (
                 <p className='font-poppins font-medium text-[18px] leading-[23px] mr-2'>
                         <span className="text-gradient">Get</span>
                 </p>
-                <img src={arrowUp} className="w-[23px] h-[23px] object-contain"/>
+                <img src={arrowUp} alt={nameArrow} className="w-[23px] h-[23px] object-contain"/>
                
 
             </div>
