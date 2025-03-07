@@ -12,6 +12,7 @@ import Features from "./Features";
 import Clients from "./Clients";
 import AboutMe from "./AboutMe";
 import ButtonLink from "./ButtonLink";
+import Maintenance from "./Maintenance";
 
 
 export {
@@ -29,5 +30,6 @@ export {
     Clients,
     AboutMe,
     ButtonLink,
+    Maintenance,
 
 };
